@@ -5,10 +5,10 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>10.0.0</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{928CCDD5-118E-4C21-98D2-1DB86A6F98DD}</ProjectGuid>
+    <ProjectGuid>{4AFDE695-E7C2-4267-8B13-CE8DCFDA2662}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>PCalc</RootNamespace>
-    <AssemblyName>PCalc</AssemblyName>
+    <RootNamespace>PGtkArray</RootNamespace>
+    <AssemblyName>PGtkArray</AssemblyName>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
     <DebugSymbols>true</DebugSymbols>
@@ -69,8 +69,14 @@
     <Compile Include="gtk-gui\MainWindow.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AssemblyInfo.cs" />
-    <Compile Include="ArrayButton.cs" />
-    <Compile Include="gtk-gui\PCalc.ArrayButton.cs" />
+    <Compile Include="MyWidget.cs" />
+    <Compile Include="gtk-gui\PGtkArray.MyWidget.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\PSerpisEd\PSerpisEd.csproj">
+      <Project>{8571D6C9-033C-47E4-9FBE-5188D574FBFE}</Project>
+      <Name>PSerpisEd</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
