@@ -73,10 +73,4 @@
     <Compile Include="gtk-gui\PGtkArray.MyWidget.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
-  <ItemGroup>
-    <ProjectReference Include="..\PSerpisEd\PSerpisEd.csproj">
-      <Project>{8571D6C9-033C-47E4-9FBE-5188D574FBFE}</Project>
-      <Name>PSerpisEd</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>

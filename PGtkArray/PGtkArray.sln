@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PGtkArray", "PGtkArray\PGtkArray.csproj", "{4AFDE695-E7C2-4267-8B13-CE8DCFDA2662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PSerpisEd", "PSerpisEd\PSerpisEd.csproj", "{8571D6C9-033C-47E4-9FBE-5188D574FBFE}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,10 +13,6 @@ Global
 		{4AFDE695-E7C2-4267-8B13-CE8DCFDA2662}.Debug|x86.Build.0 = Debug|x86
 		{4AFDE695-E7C2-4267-8B13-CE8DCFDA2662}.Release|x86.ActiveCfg = Release|x86
 		{4AFDE695-E7C2-4267-8B13-CE8DCFDA2662}.Release|x86.Build.0 = Release|x86
-		{8571D6C9-033C-47E4-9FBE-5188D574FBFE}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{8571D6C9-033C-47E4-9FBE-5188D574FBFE}.Debug|x86.Build.0 = Debug|Any CPU
-		{8571D6C9-033C-47E4-9FBE-5188D574FBFE}.Release|x86.ActiveCfg = Release|Any CPU
-		{8571D6C9-033C-47E4-9FBE-5188D574FBFE}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = PGtkArray\PGtkArray.csproj
